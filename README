@@ -1,0 +1,49 @@
+# Retail Demand Forecasting
+
+## 📌 Project Overview
+This project builds an end-to-end demand forecasting pipeline for retail sales data. 
+It includes data preprocessing, model training, evaluation, and export of forecast results for visualization in Power BI.
+
+## 🧠 Objective
+To predict future product demand using historical sales data and evaluate model performance using regression metrics.
+
+## 🛠 Tech Stack
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Power BI (for dashboard)
+
+## 📂 Project Structure
+retail-demand-forecasting/
+│
+├── src/                # Data processing and modeling scripts
+├── outputs/            # Forecast results (CSV files)
+├── requirements.txt    # Project dependencies
+└── README.md           # Project documentation
+
+## 📊 Workflow
+1. Data cleaning and preprocessing
+2. Feature engineering
+3. Model training
+4. Model evaluation (MAE, RMSE)
+5. Export predictions to CSV
+6. Visualization in Power BI
+
+## 📈 Results
+Model performance metrics:
+- MAE: (add your value)
+- RMSE: (add your value)
+
+## 📊 Dashboard
+The exported forecast datasets are visualized in Power BI to analyze:
+- Monthly demand trends
+- Forecast vs actual comparison
+- Category-level performance
+
+## 🚀 How to Run
+1. Clone the repository
+2. Install dependencies:
+   pip install -r requirements.txt
+3. Run the pipeline:
+   python src/main.py
