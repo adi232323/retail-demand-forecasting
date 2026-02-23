@@ -1,0 +1,2 @@
+avg_daily_demand,std_daily_demand,lead_time_days,service_level_z,safety_stock,reorder_point,reorder_point_if_demand_plus_15pct
+637556.38,234410.24,7,1.65,1023315.5,5486210.19,6155644.39
